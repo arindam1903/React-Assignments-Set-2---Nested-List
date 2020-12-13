@@ -4,24 +4,24 @@ import "./../styles/App.css";
 import State from "./State";
 const states = [
   {
-    name: "West Bengal",
+    name: "Madhya Pradesh",
     cities: [
       {
-        name: "asansol",
+        name: "Bhopal",
         towns: [
           {
-            name: "Raha lane"
+            name: "Manit"
           },
           {
-            name: "Jublee"
+            name: "Berasia"
           }
         ]
       },
       {
-        name: Durgapur,
+        name: "Gwalior",
         towns: [
           {
-            name: "City centre"
+            name: "Ajaypur"
           }
         ]
       }
@@ -34,7 +34,7 @@ const states = [
         name: "Dhanbad",
         towns: [
           {
-            name: "Chirkunda"
+            name: "IIT(ISM) Dhanbad"
           },
           {
             name: "Hirapur"
@@ -42,51 +42,78 @@ const states = [
         ]
       },
       {
-        name: "Ranchi",
+        name: "Wasseypur",
         towns: [
           {
-            name: "Bariatu"
+            name: "Sardar khan's"
           },
           {
-            name: "Booty more"
+            name: "Faizal khan's"
           }
         ]
       },
       {
-        name: "Daltonganj",
+        name: "Mirzapur",
         towns: [
           {
-            name: "Chattarpur"
+            name: "Kaleen bhaiya's"
           },
           {
-            name: "Netarhat"
+            name: "Guddu bhaiya's"
           }
         ]
       }
     ]
   },
   {
-    name: "Odisha",
+    name: "Assam",
     cities: [
       {
-        name: "Bhubaneshwar",
+        name: "Guwhati",
         towns: [
           {
-            name: "lingeshwar mandir"
+            name: "Amin"
           },
           {
-            name: "nandan kanan"
+            name: "Jalah"
           }
         ]
       },
       {
-        name: "puri",
+        name: "Jungle1",
         towns: [
           {
-            name: "sea beach"
+            name: "Tiger found at IIT Guwahati"
           },
           {
-            name: "jagnnath mandir"
+            name: "Leopard found in IIT Guwahati"
+          }
+        ]
+      },
+      {
+        name: "Tezpur",
+        towns: [
+          {
+            name: "Dibrugarh"
+          },
+          {
+            name: "Silchar"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    name: "Bihar",
+    cities: [
+      {
+        name: "Patna",
+        towns: [
+          {
+            name: "Sonpur"
+          },
+          {
+            name: "Maner"
           }
         ]
       }
